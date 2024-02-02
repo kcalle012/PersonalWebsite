@@ -3,7 +3,7 @@ import './index.scss'
 import LogoS from '../../Assets/images/logo-s.png'
 import LogoSubtitle from '../../Assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faHome, faMailReply, faUser, faVoicemail } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
@@ -53,6 +53,17 @@ const Sidebar = () => (
                     href='https://github.com/kcalle012'
                     >
                         <FontAwesomeIcon icon={faGithub} color="#4d4d4e" ></FontAwesomeIcon>
+
+                </a>
+            </li>
+
+            <li>
+                <a
+                    target="_blank"
+                    rel = "noreferrer"
+                    href='mailto:kcalle012@gmail.com'
+                    >
+                        <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" ></FontAwesomeIcon>
 
                 </a>
             </li>
