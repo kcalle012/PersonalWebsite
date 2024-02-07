@@ -42,7 +42,7 @@
             text-decoration: none;
 
             i {
-                transition: all 0.5s ease-out;
+                transition: all 0.3 ease-out;
             }
 
             &:hover {
@@ -67,7 +67,7 @@
                 width: 100%;
                 text-align: center;
                 opacity: 0;
-                transition: all 0.5 ease-out;
+                transition: all 0.3s ease-out;
             }
 
             &:first-child {
@@ -100,7 +100,23 @@
         bottom: 20px;
         width: 100%;
         display: block;
-        
+        padding: 0;
+        list-style: center;
+        text-align: center;
+        margin: 0;
 
+        li {
+            a {
+                padding: 7px 0;
+                display: block;
+                font-size: 15px;
+                line-height: 16px;
+
+            &:hover svg{
+                color: #ffd700;
+                }
+            }
+
+        }
     }
 }
