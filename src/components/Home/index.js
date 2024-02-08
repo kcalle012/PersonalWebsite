@@ -1,8 +1,9 @@
-import LogoTitle from '../../Assets/images/icons8-k-67.png';
+import LogoTitle from '../../Assets/images/letter-k.png';
 import './index.scss';
 import {Link} from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
+import Logo from '../Logo';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -38,6 +39,8 @@ const Home = () => {
                 <h2>Fullstack Developer / Computer Science / Math Enthusiast</h2>
                 <Link to="/contact" className="flat-button">Contact Me</Link>
             </div>
+
+            <Logo/>
         </div>
     )
 }
